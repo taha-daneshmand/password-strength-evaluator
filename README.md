@@ -55,7 +55,7 @@ pip install zxcvbn
 ### Single Password Evaluation
 
 ```bash
-python test_password_strength.py
+python main.py
 ```
 
 You will be prompted to enter a password for evaluation.
@@ -63,7 +63,7 @@ You will be prompted to enter a password for evaluation.
 ### Multiple Passwords Evaluation
 
 ```bash
-python test_password_strength.py <file>
+python main.py <file>
 ```
 
 Replace `<file>` with the path to a file containing passwords (one per line).
